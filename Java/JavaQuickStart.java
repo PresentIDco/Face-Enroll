@@ -1,7 +1,7 @@
 HttpRequest request = HttpRequest.newBuilder()
 		.uri(URI.create("https://face-enroll1.p.rapidapi.com/Login"))
 		.header("content-type", "multipart/form-data; boundary=---011000010111000001101001")
-		.header("x-rapidapi-key", "f485496ab8msh2ea068a0bbe333cp179f86jsn2b4afe8962dd")
+		.header("x-rapidapi-key", "APIKEY")
 		.header("x-rapidapi-host", "face-enroll1.p.rapidapi.com")
 		.method("POST", HttpRequest.BodyPublishers.ofString("-----011000010111000001101001\r
 Content-Disposition: form-data; name=\"photo\"\r
